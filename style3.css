@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+}
+   
+
+.container{
+    margin: 0 34px;
+    padding: 8px;
+}
+
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_nav-logo{
+    width: 300px;
+}
+
+.header_nav-items{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.header_nav-items a{
+    color: rgb(27, 161, 176);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.header_nav-item_3 a:hover{
+    color: green;
+    text-decoration: underline;
+}
+
+.header_nav-item_2 a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.header_nav-item_1 a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+
+/* main */
+/* section 1 */
+
+.hero{
+    display: flex;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.main_text{
+    width: 500px;
+}
+
+.main_img img{
+    width: 700px;
+}
+
+.main_text-heading{
+    font-size: 43px;
+    color: #818181; 
+}
+
+/* section 2 > card */
+
+.showcase{
+    display: flex;
+   justify-content: space-around;
+    align-items: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.side_img_1 img{
+    width: 300px; 
+    height: 300;  
+}
+
+.side_img_2 img{
+   
+    width: 300px; 
+    height: 300;
+    
+}
+
+.side_img_3 img{
+    width: 300px;
+    height: 440px;
+}
+
+.side_img_1 h3{
+    color: #818181;
+    font-weight: 500px;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.side_img_2 h3{
+    color: #818181;
+    font-weight: 500px;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.side_img_3 h3{
+    color: #818181;
+    font-weight: 500px;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    padding: 16px;
+}
+
+.footer_text{
+    text-align: center;
+}
+
+.side_text{
+    color: whitesmoke;
+    font-style: oblique;
+    font-size:50px;
+}
